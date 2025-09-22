@@ -1,0 +1,35 @@
+useDynLib(RFRW, .registration=TRUE)
+importFrom(Rcpp, evalCpp)
+
+export(combine_RFRW, getTree_RFRW, grow_RFRW, importance_RFRW, margin_RFRW, MDSplot_RFRW, na.roughfix_RFRW,
+       partialPlot_RFRW, RFRW, rfImpute_RFRW, treesize_RFRW, tuneRF_RFRW,
+       varImpPlot_RFRW, varUsed_RFRW, rfNews_RFRW, outlier_RFRW, classCenter_RFRW, rfcv_RFRW, predict_quantile)
+
+S3method(print, RFRW)
+S3method(predict, RFRW)
+S3method(predict_quantile, RFRW)
+S3method(plot, RFRW)
+S3method(plot, margin_RFRW)
+S3method(margin_RFRW, RFRW)
+S3method(partialPlot_RFRW, RFRW)
+S3method(grow_RFRW, RFRW)
+S3method(importance_RFRW, RFRW)
+S3method(outlier_RFRW, RFRW)
+S3method(outlier_RFRW, default)
+
+S3method(RFRW, formula)
+S3method(RFRW, default)
+S3method(rfImpute_RFRW, formula)
+S3method(rfImpute_RFRW, default)
+
+S3method(na.roughfix_RFRW, data.frame)
+S3method(na.roughfix_RFRW, default)
+
+importFrom("grDevices", "rainbow")
+importFrom("graphics", "axis", "barplot", "dotchart", "lines",
+           "matplot", "mtext", "pairs", "par", "plot", "plot.default",
+           "points")
+importFrom("stats", "delete.response", "mad", "median", "model.frame",
+           "model.response", "na.fail", "na.omit", "napredict",
+           "predict", "quantile", "reformulate", "terms", "update",
+           "var", "weighted.mean")
