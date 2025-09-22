@@ -1,6 +1,6 @@
 # Random Forests by Random Weights (RF-RW)
 
-Code for Random Forests by Random Weights (RF-RW) for time series modelling.
+Random Forests by Random Weights (RF-RW) for time series modelling.
 
 ## Package installation
 
