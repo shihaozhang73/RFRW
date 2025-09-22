@@ -1,10 +1,12 @@
 Package: RFRW
 Type: Package
-Title: Random Forests Random Weights
+Title: Random Forests by Random Weights
 Version: 1.0
 Date: 2024-04-22
-Author: Your Name
-Maintainer: Your Name <your@email.com>
+Author: Shihao Zhang [aut, cre],
+  Zudi Lu [aut],
+  Chao Zheng [aut]
+Maintainer: Shihao Zhang <Shihao.Zhang@soton.ac.uk>
 Description: Random Forests that include case_weights for the split criterion and node weighted mean, and exclude the 
   bootstrap step for the data.
 License: GPL (>= 2)
