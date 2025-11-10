@@ -2,13 +2,12 @@ Package: RFRW
 Type: Package
 Title: Random Forests by Random Weights
 Version: 1.0
-Date: 2024-04-22
+Date: 2025-11-10
 Author: Shihao Zhang [aut, cre],
   Zudi Lu [aut],
   Chao Zheng [aut]
 Maintainer: Shihao Zhang <Shihao.Zhang@soton.ac.uk>
-Description: Random Forests that include case_weights for the split criterion and node weighted mean, and exclude the 
-  bootstrap step for the data.
+Description: Random Forests by Random Weights for nonlinear time series modelling. It avoids the bootstrap resampling procedure in the original random forests that break the serial dependence structure, whilst incorporates independent random weights to reduce correlations among trees.
 License: GPL (>= 2)
 Imports: Rcpp (>= 1.0.12)
 LinkingTo: Rcpp
