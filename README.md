@@ -1,6 +1,6 @@
 # RFRW: Random Forests by Random Weights
 
-`RFRW` is an R package that implements Random Forests by Random Weights for nonlinear time series modelling. It avoids the bootstrap resampling procedure in the original random forests that break the serial dependence structure, whilst incorporates independent random weights to reduce correlations among trees.
+`RFRW` is an R package that implements Random Forests by Random Weights for nonlinear time series modelling. It avoids the bootstrap resampling procedure in the original random forests that break the serial dependence structure, whilst incorporates independent random weights to reduce correlations among trees. For details of the methodology, please refer to our [manuscript](https://arxiv.org/abs/2511.06544). 
 
 ## Authors
 
